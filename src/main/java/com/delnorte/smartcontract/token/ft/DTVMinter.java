@@ -220,9 +220,8 @@ public class DTVMinter implements Contract {
         tonlib.sendRawMessage(Utils.bytesToBase64(externalMessage.message.toBoc()));
     }
 
-/*
-    private JettonMinter delployMinter() {
 
+    private JettonMinter delployMinter() {
 
         Options options = Options.builder()
                 .adminAddress(adminWallet.getWallet().getAddress())
@@ -239,7 +238,7 @@ public class DTVMinter implements Contract {
         Utils.sleep(40);
         return minter;
     }
-*/
+
     public static void main(String[] args) {
         Address ownerAddr = new Address("0QAiuh3GMassnL5yPSW8AMlLCUN2iZavPlgpBTjLZ8F3R23Y");
         Options options = Options.builder().address(ownerAddr).build();
