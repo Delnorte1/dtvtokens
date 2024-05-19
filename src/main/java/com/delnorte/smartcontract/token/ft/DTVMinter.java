@@ -225,7 +225,7 @@ public class DTVMinter implements Contract {
 
         Options options = Options.builder()
                 .adminAddress(adminWallet.getWallet().getAddress())
-                .jettonContentUri("https://raw.githubusercontent.com/neodix42/ton4j/main/1-media/neo-jetton.json")
+                .jettonContentUri("https://github.com/Delnorte1/dtvtokens/blob/feature/init/dtv/media/DTVTestJetton.json")
                 .jettonWalletCodeHex(WalletCodes.jettonWallet.getValue())
                 .build();
 
